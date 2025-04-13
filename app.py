@@ -2,7 +2,7 @@ from mlx_lm import load, generate
 
 class InferlessPythonModel:
     def initialize(self):
-        self.model, self.tokenizer model, tokenizer = load("mlx-community/Phi-3.5-MoE-instruct-8bit")
+        self.model, self.tokenizer = load("mlx-community/Phi-3.5-MoE-instruct-8bit")
          
 
     def infer(self, inputs):
